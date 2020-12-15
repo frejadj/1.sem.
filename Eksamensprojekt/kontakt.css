@@ -1,0 +1,127 @@
+header {
+  display: flex;
+  position: right;
+  top: 0;
+  left: 1000px;
+  right: 0;
+  height: 60px;
+  background-color: white;
+  margin-left: 120px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-family: Open sans, sans-serif;
+  padding: 14px 2px;
+  margin-top: -10px;
+}
+
+header li {
+  margin-left: 25px;
+  display: inline;
+  padding: 15px 2px;
+}
+
+li a:hover:not(.active) {
+  color: #D9D9D9;
+  padding: 14px 2px;
+}
+
+.menu{
+  margin-left: 570px;
+}
+
+img{
+  position: left;
+  margin-top: auto;
+}
+/*Til og med her går header*/
+
+/*Overskriften "TAK.."*/
+.h{
+  color: black;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+/*Underoverskriften "Jeg vender tilbage.."*/
+.h3{
+  text-align: center;
+  font-size:18px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical /*Ændring af boksen man kan skrive i*/
+}
+
+/*Styling af "send" knappen*/
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* "send" knappen*/
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Baggrundfarve bag formularen og størrelse */
+.con {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 150px;
+  font-family: arial;
+  margin-bottom:-10px;
+
+  width: 600px;
+  height: 465px;
+  margin-left: 260px;
+  margin-top: 52px;
+
+}
+
+
+
+
+/*Footeren og kun footeren */
+.footer{
+display: flex;
+font-size: 13px;
+color: #555555;
+}
+
+.navn{
+  flex: 1%;
+  margin-left: 35%;
+  margin-bottom: 50px;
+  margin-top: 180px;
+}
+
+.social{
+  flex: 1%;
+  margin-left: 250px;
+  margin-top: 250px;
+}
+
+footer {
+  background-color: #E6E6E6;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #A6A6A6;
+}

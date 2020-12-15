@@ -1,0 +1,81 @@
+header {
+  display: flex;
+  position: right;
+  top: 0;
+  left: 1000px;
+  right: 0;
+  height: 60px;
+  background-color: white;
+  margin-left: 120px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-family: Open sans, sans-serif;
+  padding: 14px 2px;
+  margin-top: -10px;
+}
+
+header li {
+  margin-left: 25px;
+  display: inline;
+  padding: 15px 2px;
+}
+
+li a:hover:not(.active) {
+  color: #D9D9D9;
+  padding: 14px 2px;
+}
+
+.menu{
+  margin-left: 570px;
+}
+
+img{
+  position: left;
+  margin-top: auto;
+}
+/*Til og med her går header*/
+
+/*Første billed af havet*/
+.hav{
+  margin-top: 40px;
+}
+
+/*Billedkarusellen*/
+.billeder{
+  margin-top: 60px;
+  margin-left: 5px;
+  margin-bottom: 40px;
+}
+
+
+
+
+/*Footeren og kun footeren */
+.footer{
+display: flex;
+font-size: 13px;
+color: #555555;
+}
+
+.navn{ /*Logo navnet*/
+  flex: 1%;
+  margin-left: 35%;
+  margin-bottom: 50px;
+  margin-top: 180px;
+}
+
+.social{
+  flex: 1%;
+  margin-left: 250px;
+  margin-top: 250px;
+}
+
+footer {
+  background-color: #E6E6E6;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #A6A6A6;
+}

@@ -41,6 +41,7 @@ img{
 /*Første billed af havet*/
 .hav{
   margin-top: 40px;
+  text-align: center;
 }
 
 /*Billedkarusellen*/
@@ -48,9 +49,8 @@ img{
   margin-top: 60px;
   margin-left: 5px;
   margin-bottom: 40px;
+  text-align: center;
 }
-
-
 
 
 /*Footeren og kun footeren */

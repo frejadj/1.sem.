@@ -1,0 +1,152 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: white;
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+}
+
+img {
+  position: center;
+  margin-top: auto;
+  margin-left: 20%;
+}
+
+.logo {
+  margin-left: 155px;
+  margin-right: 100px;
+  margin-top: 5px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-family: Open sans, sans-serif;
+  padding: 14px 2px;
+  margin-top: -10px;
+}
+
+header li {
+  margin-left: 20px;
+  display: inline;
+  padding: 15px 2px;
+}
+
+li a:hover:not(.active) {
+  color: #D9D9D9;
+  padding: 14px 2px;
+}
+
+.under {
+  color: white;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Open sans, sans-serif;
+  background-color: #C49F8C;
+  padding: 15px;
+}
+
+.con {
+  position: center;
+}
+
+.boks1 {
+  color: black;
+  margin-top: -86px;
+  margin-left: 415px;
+  margin-right: 90px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Open sans, sans-serif;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 2px;
+  margin-left: 55px;
+}
+
+.container div {
+  padding: 50px;
+  font-family: arial;
+}
+
+.box1:hover {
+  opacity: 0.3;
+}
+
+.box3:hover {
+  opacity: 0.3;
+}
+
+.box1 {
+  flex: -10%;
+  text-align: left;
+  color: black;
+}
+
+.box3 {
+  flex: -10%;
+  text-align: left;
+  color: black;
+  position: absolute;
+  margin-top: 230px;
+}
+
+.box2 {
+  flex: -10%;
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #C49F8C;
+  bottom: -400px;
+  padding-bottom: 20px;
+}
+
+.fot {
+  margin-top: 9px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.fottekst {
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+}
+
+.lyngby{
+  margin-left: 1000px;
+  margin-top: 57px;
+}
+
+.tekst {
+  color: white;
+  text-align: left;
+  font-family: Open sans, sans-serif;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+.knap {
+  display: flex;
+  margin-left: 166px;
+  margin-top: -50px;
+}
+
+.knap:hover {
+  opacity: 0.5;
+}
